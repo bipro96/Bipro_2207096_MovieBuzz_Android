@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "725521335256",
+    "firebase_url": "https://moviebuzz-c7022-default-rtdb.firebaseio.com",
+    "project_id": "moviebuzz-c7022",
+    "storage_bucket": "moviebuzz-c7022.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:725521335256:android:aeeb6d32ac17ad6bb0a8ad",
+        "android_client_info": {
+          "package_name": "com.example.moviebuzz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDchxY3BfZtf-Pkr0tGow8oUeQhyFCRgnc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
