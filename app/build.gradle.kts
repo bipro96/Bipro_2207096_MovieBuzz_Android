@@ -46,7 +46,6 @@ dependencies {
 
     // Glide
     implementation(libs.glide)
-    implementation(libs.activity)
     annotationProcessor(libs.glide.compiler)
 
     // Jackson
