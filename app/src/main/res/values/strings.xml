@@ -1,4 +1,126 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">MovieBuzz</string>
 
+
+    <string name="title_login">Login</string>
+    <string name="title_signup">Sign Up</string>
+    <string name="title_admin_dashboard">Admin Dashboard</string>
+    <string name="title_customer_main">Now Playing</string>
+    <string name="title_movie_details">Movie Details</string>
+    <string name="title_schedule_movie">Schedule Movie</string>
+    <string name="title_manage_shows">Manage Shows</string>
+    <string name="title_show_bookings">Show Bookings</string>
+
+
+    <string name="logout">Logout</string>
+    <string name="back">Back</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="confirm">Confirm</string>
+
+
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="login">Sign In</string>
+    <string name="create_account">Create New Account</string>
+    <string name="admin_portal">Admin Portal</string>
+    <string name="user_login">User Login</string>
+
+
+    <string name="email_hint">Email Address</string>
+    <string name="register">Register</string>
+    <string name="already_have_account">Already have an account? Login</string>
+
+
+    <string name="admin_title">Theater Management - Admin Portal</string>
+    <string name="search_movie">Enter Movie Name (e.g., Interstellar)</string>
+    <string name="search_add">Search &amp; Add</string>
+    <string name="schedule_movie">Schedule Movie</string>
+    <string name="view_shows">View All Shows</string>
+    <string name="delete_movie">Delete Movie</string>
+    <string name="ready">Ready</string>
+    <string name="searching">Searching OMDb...</string>
+
+
+    <string name="now_playing">Now Playing</string>
+    <string name="recharge_balance">+ Recharge Balance</string>
+    <string name="balance_label">Balance: BDT </string>
+
+
+    <string name="available_showtimes">Available Showtimes</string>
+    <string name="qty">Qty:</string>
+    <string name="confirm_purchase">Confirm Purchase</string>
+    <string name="select_showtime">Please select a showtime!</string>
+    <string name="insufficient_balance">Insufficient balance!</string>
+    <string name="booking_confirmed">Booking confirmed!</string>
+    <string name="purchased">Purchased: </string>
+    <string name="tickets"> ticket(s)</string>
+    <string name="id_label">ID: #</string>
+    <string name="show_label">Show: </string>
+    <string name="at"> @ </string>
+    <string name="total_label">Total: BDT </string>
+
+
+    <string name="schedule_form_title">Movie Scheduling Form</string>
+    <string name="movie_title">Movie Title</string>
+    <string name="show_date">Show Date:</string>
+    <string name="show_time">Show Time:</string>
+    <string name="ticket_price">Ticket Price (BDT):</string>
+    <string name="pick_date">Pick Date</string>
+    <string name="save_schedule">Save Schedule</string>
+    <string name="time_example">ex: 10:00 AM</string>
+    <string name="price_example">ex: 200</string>
+    <string name="select_date">Select Date</string>
+
+
+    <string name="manage_shows_title">Manage Scheduled Shows</string>
+    <string name="view_bookings">View Bookings</string>
+    <string name="cancel_show_refund">Cancel Show &amp; Refund All</string>
+    <string name="select_show_first">Please select a show first</string>
+    <string name="select_active_show">Please select an active show</string>
+    <string name="cancel_show_confirm">Are you sure you want to cancel</string>
+    <string name="and_refund"> and refund all customers?</string>
+    <string name="yes_cancel">Yes, Cancel</string>
+    <string name="show_cancelled">Show cancelled. </string>
+    <string name="customers_refunded"> customers refunded.</string>
+
+
+    <string name="show_booking_details">Show Booking Details</string>
+    <string name="total_tickets_sold">Total Active Tickets Sold: </string>
+    <string name="close">Close</string>
+    <string name="username_label">Username</string>
+    <string name="quantity_label">Quantity</string>
+    <string name="paid_label">Paid (BDT)</string>
+    <string name="status_label">Status</string>
+
+
+    <string name="error_fill_fields">Please fill in all fields.</string>
+    <string name="error_invalid_credentials">Invalid credentials.</string>
+    <string name="error_access_denied">Access denied for this portal.</string>
+    <string name="error_database">Database Error: </string>
+    <string name="error_movie_not_found">Movie not found.</string>
+    <string name="error_saving_movie">Error saving movie</string>
+    <string name="error_deleting_movie">Error deleting movie</string>
+    <string name="error_loading_movies">Error loading movies</string>
+    <string name="error_loading_shows">Error loading shows</string>
+    <string name="error_loading_bookings">Error loading bookings</string>
+    <string name="error_processing_payment">Error processing payment</string>
+    <string name="error_checking_balance">Error checking balance</string>
+    <string name="error_updating_balance">Error updating balance</string>
+    <string name="error_booking_failed">Booking failed</string>
+    <string name="error_scheduling_show">Error scheduling show</string>
+    <string name="error_processing_refunds">Error processing refunds</string>
+    <string name="error_cancelling_show">Error cancelling show</string>
+    <string name="error_user_not_found">User not found</string>
+    <string name="error_username_exists">Username already exists</string>
+    <string name="error_registration_failed">Registration failed: </string>
+
+
+    <string name="movie_saved">Saved: </string>
+    <string name="movie_deleted">Deleted: </string>
+    <string name="balance_added">Added BDT </string>
+    <string name="to_account"> to your account!</string>
+    <string name="registration_successful">Registration successful!</string>
+    <string name="show_scheduled">Show scheduled successfully!</string>
 </resources>
