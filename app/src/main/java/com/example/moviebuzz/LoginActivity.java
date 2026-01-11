@@ -16,7 +16,7 @@ public class LoginActivity extends AppCompatActivity {
     private DatabaseHelper databaseHelper;
     private UserSession userSession;
 
-
+    // 🔐 HARD-CODED ADMIN CREDENTIALS
     private static final String ADMIN_USERNAME = "bb";
     private static final String ADMIN_PASSWORD = "bb96";
 
@@ -85,7 +85,7 @@ public class LoginActivity extends AppCompatActivity {
             return;
         }
 
-
+        // ✅ HARD-CODED ADMIN LOGIN (ONLY THIS PART ADDED)
         if (isAdminMode &&
                 username.equals(ADMIN_USERNAME) &&
                 password.equals(ADMIN_PASSWORD)) {
@@ -95,6 +95,8 @@ public class LoginActivity extends AppCompatActivity {
             finish();
             return;
         }
+
+        // 🔹 CUSTOMER LOGIN (UNCHANGED)
         databaseHelper.getUser(username,
                 new DatabaseHelper.DatabaseCallback<User>() {
 
